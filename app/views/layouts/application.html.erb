@@ -10,6 +10,17 @@
   </head>
 
   <body>
+    <% if current_user %>
+      <div>
+        <%= link_to current_user.email, page_home_path %>
+      </div>
+    <% else %>
+      <div>
+        <%= link_to "Войти в профиль", new_user_session_path %>
+        <%= link_to "Зарегистрироваться", new_user_registration_path %>
+      </div>
+    <% end %>
+    <%= render "layouts/alerts" %>
     <%= yield %>
   </body>
 </html>

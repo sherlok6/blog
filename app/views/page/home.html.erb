@@ -1,0 +1,4 @@
+<h1>Профиль пользователя <%= current_user.email %></h1>
+<div>
+    <%= link_to "Выйти из профиля", destroy_user_session_path, method: :delete %>
+</div>
