@@ -1,0 +1,9 @@
+  <h1>Все посты</h1>
+    <% @post_list.each do |post| %>
+      <div class="alert alert-light">
+        <h3><%= post.title %></h3>
+          <%= link_to "Прочитать пост", post_path(post), :class => 'btn btn-info' %>
+          <br>
+          <%= (post.post_date).to_formatted_s(:long) %>
+      </div>
+    <%end%>
