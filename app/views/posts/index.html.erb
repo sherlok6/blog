@@ -1,1 +1,11 @@
 <h1>Все посты</h1>
+<% @posts.each do |post|%>
+    <div>
+        <p><%= post.title %></p>
+        <p><%= post.dt_post %></p>
+        <%= link_to "Прочитать пост", post_path(post) %>
+    </div>
+    <br>
+<% end %>
+<hr>
+<%= link_to "Добавить пост", new_post_path %>

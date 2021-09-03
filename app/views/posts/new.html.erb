@@ -1,0 +1,8 @@
+<h1>Добавить пост</h1>
+<%= form_for :post, url:posts_path do |f| %>
+    <p>
+        Заголовок: <%= f.text_field(:title) %></p>
+    <p>
+        Текст поста: <%= f.text_area(:body) %></p>
+    <p><%= f.submit %></p>
+<% end %>
