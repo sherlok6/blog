@@ -3,6 +3,10 @@
 <br>
 <strong><%= @post.dt_post %></strong>
 <br>
-<strong><%= link_to "Редактировать пост", edit_post_path(@post) %></strong>
-<strong><%= link_to "Удалить пост", post_path(@post), method: :delete,
-  data: { confirm: 'Вы хотите удалить пост?' } %></strong>
+<% if current_user == @post.user %>
+  <strong><%= link_to "Редактировать пост", edit_post_path(@post) %></strong>
+  <strong><%= link_to "Удалить пост", post_path(@post), method: :delete,
+    data: { confirm: 'Вы хотите удалить пост?' } %></strong>
+<% else %>
+  <strong>Редактирование доступно только Автору поста</strong>
+<% end %>

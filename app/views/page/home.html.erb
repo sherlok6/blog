@@ -1,4 +1,14 @@
 <h1>Профиль пользователя <%= current_user.email %></h1>
+<% if current_user.posts == nil%>
+    <h2>У вас нет постов</h2>
+<% else %>
+    <% (current_user.posts).each do |post|%>
+        <div>
+            <h3><%= post.title %></h3>
+            <%= link_to "Прочитать пост", post_path(post) %>
+        </div>
+    <% end %>
+<% end %>
 <div>
     <%= link_to "Выйти из профиля", destroy_user_session_path, method: :delete %>
 </div>
