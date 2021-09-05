@@ -10,6 +10,12 @@
 <% end %>
 <br>
 <% if current_user %>
+  <% if @comment.errors.any? %>
+    <% @comment.errors.full_messages.each do |msg| %>
+        <%= msg %>
+        <br>
+    <% end %>
+  <% end %>
     <h2>Добавить комментарии</h2>
   <%= form_for([@post, @post.comments.build]) do |f| %>
     <p>

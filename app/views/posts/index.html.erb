@@ -1,6 +1,6 @@
 <h1>Все посты</h1>
 <% @posts.each do |post|%>
-    <div>
+    <div class="container">
         <p><%= post.title %></p>
         <p><%= post.dt_post %></p>
         <%= link_to "Прочитать пост", post_path(post) %>
@@ -8,8 +8,4 @@
         <strong>Автор: <%= post.user.email %></strong>
     </div>
     <br>
-<% end %>
-<hr>
-<% if current_user %>
-<%= link_to "Добавить пост", new_post_path %>
 <% end %>

@@ -7,8 +7,8 @@
   <% end %>
 <%= form_for :post, url:posts_path do |f| %>
     <p>
-        Заголовок: <%= f.text_field(:title) %></p>
+        Заголовок: <%= f.text_field(:title,{:class => 'form-control'}) %></p>
     <p>
-        Текст поста: <%= f.text_area(:body) %></p>
-    <p><%= f.submit %></p>
+        Текст поста: <%= f.text_area(:body,{:class => 'form-control'}) %></p>
+    <p><%= f.submit("Добавить пост",{:class => 'btn btn-success'} ) %></p>
 <% end %>
