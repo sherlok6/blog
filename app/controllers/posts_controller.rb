@@ -3,13 +3,17 @@ class PostsController < ApplicationController
         @posts = Post.all
     end
     def new
+        @post = Post.new
     end
     def create
         @post = Post.new(post_params)
         @post.dt_post = DateTime.current
         @post.user = current_user
-        @post.save
-        redirect_to @post
+        if @post.save
+            redirect_to @post
+        else
+            render 'new'
+        end
     end
     def show
         @post = Post.find(params[:id])
@@ -19,8 +23,12 @@ class PostsController < ApplicationController
     end
     def update
         @post = Post.find(params[:id])
-        @post.update(post_params)
-        redirect_to @post
+
+        if(@post.update(post_params))
+            redirect_to @post
+        else
+            render 'edit'
+        end
     end
     def destroy
         @post = Post.find(params[:id])

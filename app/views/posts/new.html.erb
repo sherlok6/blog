@@ -1,4 +1,10 @@
 <h1>Добавить пост</h1>
+<% if @post.errors.any? %>
+    <% @post.errors.full_messages.each do |msg| %>
+        <%= msg %>
+        <br>
+    <% end %>
+  <% end %>
 <%= form_for :post, url:posts_path do |f| %>
     <p>
         Заголовок: <%= f.text_field(:title) %></p>

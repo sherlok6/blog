@@ -1,5 +1,10 @@
 <h1>Изменение поста</h1>
 <%= form_for :post, url:post_path(@post), method: :patch do |f| %>
+<% if @post.errors.any? %>
+    <% @post.errors.full_messages.each do |msg| %>
+        <%= msg %>
+    <% end %>
+  <% end %>
 <p>
         Заголовок: <%= f.text_field(:title) %></p>
     <p>
