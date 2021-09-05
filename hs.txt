@@ -1,0 +1,1000 @@
+ 1022  docker ps -a
+ 1023  docker rm 14479f39adab
+ 1024  docker images
+ 1025  docker rmi d1165f221234
+ 1026  docker rmi 9873176a8ff5
+ 1027  docker ps -a
+ 1028  docker rm 8a3a73b25d6e | docker rmi 9873176a8ff5
+ 1029  docker stop 8a3a73b25d6e | docker rmi 9873176a8ff5
+ 1030  docker ps -a
+ 1031  ls
+ 1032  cat Dockerfile 
+ 1033  cd ..
+ 1034  mv tt Dock
+ 1035  ls
+ 1036  cd Dock/
+ 1037  ls
+ 1038  docker build .
+ 1039  docker start ubuntu
+ 1040  docker ps
+ 1041  docker ps -ai\
+ 1042  docker ps -ai
+ 1043  docker ps -a
+ 1044  docker images
+ 1045  docker start -ai 9873176a8ff5
+ 1046  docker run -ai 9873176a8ff5
+ 1047  docker run --help
+ 1048  ls
+ 1049  docker run 9873176a8ff5
+ 1050  docker ps
+ 1051  docker ps -a
+ 1052  docker start -ai 9b9086622443 bash
+ 1053  docker start 9b9086622443 bash
+ 1054  docker start 9b9086622443
+ 1055  docker start 9b9086622443 "bash"
+ 1056  docker start 9b9086622443 "/bash"
+ 1057  docker start -i 9b9086622443 "bash"
+ 1058  docker start -a 9b9086622443 "bash"
+ 1059  docker start -a 9b9086622443 'bash'
+ 1060  docker start 9b9086622443
+ 1061  docker start 9b9086622443 --help
+ 1062  docker start 9b9086622443 -i "bash"
+ 1063  docker start -i 9b9086622443 "bash"
+ 1064  docker run -i 9b9086622443 "bash"
+ 1065  docker run -i 9b9086622443
+ 1066  docker run 9b9086622443
+ 1067  sudo docker run 9b9086622443 "bash"
+ 1068  docker run --help
+ 1069  docker images
+ 1070  docker run ubuntu:latest
+ 1071  docker start ubuntu:latest "bash"
+ 1072  docker ps -a
+ 1073  docker start -ai 3945fb812ba3
+ 1074  docker start -ai 3945fb812ba3 "bash"
+ 1075  docker start -ai 3945fb812ba3 'bash'
+ 1076  docker start -ti 3945fb812ba3 'bash'
+ 1077  docker start -t 3945fb812ba3 'bash'
+ 1078  docker attach ubuntu:latest /bin/bash
+ 1079  docker attach ubuntu:latest
+ 1080  docker ps -a
+ 1081  docker ps 
+ 1082  docker attach 3945fb812ba3
+ 1083  docker start 3945fb812ba3
+ 1084  docker attach 3945fb812ba3
+ 1085  docker run 3945fb812ba2 /bin/bash
+ 1086  docker run ubuntu:latest /bin/bash
+ 1087  docker attach 3945fb812ba3
+ 1088  docker start ubuntu:16.04
+ 1089  docker ps -a
+ 1090  docker rmi 8f336fad44e7
+ 1091  docker rm 8f336fad44e7
+ 1092  docker ps -a
+ 1093  docker rm 3945fb812ba3
+ 1094  docker images
+ 1095  docker rmi 9873176a8ff5
+ 1096  docker stop 9b9086622443
+ 1097  docker rmi 9873176a8ff5
+ 1098  docker stop 
+ 1099  docker stop 9b9086622443
+ 1100  docker rmi 9873176a8ff5
+ 1101  docker stop 9873176a8ff5
+ 1102  docker image --help
+ 1103  docker ps -a
+ 1104  docker run -it 9b9086622443
+ 1105  docker run -it 9b9086622443 /bin/bash
+ 1106  docker images
+ 1107  docker run -it ubuntu:16.04 /bin/bash
+ 1108  ls
+ 1109  cd ..
+ 1110  clear
+ 1111  apt-get install dwarf-fortress
+ 1112  sudo apt-get install dwarf-fortress
+ 1113  clear
+ 1114  ls
+ 1115  rm regexp.odg 
+ 1116  rm regexp.pdf 
+ 1117  rm valueFolder.txt 
+ 1118  rm 'Кратко о Docker.odt' 
+ 1119  rm task_18 
+ 1120  rm task_7
+ 1121  rm firstscript 
+ 1122  rm command_examle.txt 
+ 1123  cat ccc
+ 1124  rm ccc
+ 1125  clear
+ 1126  ls
+ 1127  cd  D
+ 1128  cd Dock
+ 1129  ls
+ 1130  cd ..
+ 1131  rm -m Dock/
+ 1132  rm -r Dock/
+ 1133  ls
+ 1134  clear
+ 1135  ls
+ 1136  cd 'Документы/
+ 1137  э
+ 1138  clear
+ 1139  clear
+ 1140  cd 'Документы'/
+ 1141  ls
+ 1142  rm Metody_optimizatsii_v_primerakh_i_zadachakh_Panteleev_A_V__Letova_T_A__2005_544s.pdf 
+ 1143  clear
+ 1144  ls
+ 1145  cat otchyot.docx 
+ 1146  clear
+ 1147  ls
+ 1148  ./Minecraft 
+ 1149  rm Minecraft 
+ 1150  clear
+ 1151  cd ..
+ 1152  ls
+ 1153  apt-get remove dwarf-fortress
+ 1154  sudo apt-get remove dwarf-fortress
+ 1155  sudo apt-get install dwarf-fortress-data 
+ 1156  sudo apt-get remove dwarf-fortress
+ 1157  sudo apt-get install dwarf-fortress
+ 1158  dwarf-fortress 
+ 1159  sudo snap remove intellij-idea-community 
+ 1160  sudo snap install intellij-idea-ultimate
+ 1161  sudo snap install intellij-idea-ultimate --classic
+ 1162  heroku
+ 1163  sudo snap install heroku
+ 1164  sudo snap install heroku --classic
+ 1165  heroku login
+ 1166  heroku addons:add heroku-postgresql:dev
+ 1167  sudo psql -i
+ 1168  sudo psql postgres -i
+ 1169  history
+ 1170  sudo -i -u postgres
+ 1171  psql -U sherlok6 -d mozarella -h localhost -p 5432
+ 1172  clear
+ 1173  psql -U sherlok6 -d mozarella -h localhost -p 5432
+ 1174  clear
+ 1175  touch lll
+ 1176  nano ll
+ 1177  nano lll
+ 1178  ls
+ 1179  chmod 777 lll
+ 1180  nano lll
+ 1181  ./lll 
+ 1182  ls
+ 1183  nano lll
+ 1184  ./lll 
+ 1185  nano lll
+ 1186  ./lll 
+ 1187  nano lll
+ 1188  ./lll 
+ 1189  nano lll
+ 1190  ./lll 
+ 1191  nano lll
+ 1192  ./lll 
+ 1193  nano lll
+ 1194  ./lll 
+ 1195  nano lll
+ 1196  ./lll 
+ 1197  nano lll
+ 1198  ./lll 
+ 1199  nano lll
+ 1200  ./lll 
+ 1201  nano lll
+ 1202  ./lll 
+ 1203  nano lll
+ 1204  ./lll 
+ 1205  nano lll
+ 1206  ./lll 
+ 1207  nano lll
+ 1208  ./lll 
+ 1209  nano lll
+ 1210  ./lll 
+ 1211  nano lll
+ 1212  ./lll 
+ 1213  nano lll
+ 1214  ./lll home
+ 1215  nano lll
+ 1216  ./lll home
+ 1217  nano lll
+ 1218  ./lll home
+ 1219  nano lll
+ 1220  ./lll home
+ 1221  nano lll
+ 1222  ./lll home
+ 1223  nano lll
+ 1224  ./lll home
+ 1225  nano lll
+ 1226  ./lll home
+ 1227  nano lll
+ 1228  ./lll home
+ 1229  nano lll
+ 1230  ./lll home
+ 1231  ls
+ 1232  ./lll snap
+ 1233  nano lll
+ 1234  ls
+ 1235  nano lll
+ 1236  touch ppp
+ 1237  touch ghh
+ 1238  mkdir ol
+ 1239  mv ppp ghh ol
+ 1240  ls
+ 1241  cd ol
+ 1242  ls
+ 1243  nano ghh
+ 1244  nano ppp
+ 1245  ./lll ol
+ 1246  cd ..
+ 1247  nano lll
+ 1248  ./lll 
+ 1249  nano lll
+ 1250  ./lll 
+ 1251  ./lll ol
+ 1252  ./lll snap
+ 1253  nano lll
+ 1254  ./lll snap
+ 1255  nano lll
+ 1256  ./lll snap
+ 1257  nano lll
+ 1258  ./lll snap
+ 1259  nano lll
+ 1260  ./lll snap
+ 1261  nano lll
+ 1262  ./lll snap
+ 1263  nano lll
+ 1264  ./lll snap
+ 1265  nano lll
+ 1266  ./lll snap
+ 1267  nano lll
+ 1268  ./lll snap
+ 1269  nano lll
+ 1270  ./lll snap
+ 1271  nano lll
+ 1272  ./lll snap
+ 1273  nano lll
+ 1274  ./lll snap
+ 1275  nano lll
+ 1276  ./lll snap
+ 1277  nano lll
+ 1278  ./lll snap
+ 1279  nano lll
+ 1280  ./lll snap
+ 1281  nano lll
+ 1282  ./lll snap
+ 1283  nano lll
+ 1284  ./lll snap
+ 1285  dwarf-fortress 
+ 1286  sudo 
+ 1287  clear
+ 1288  sudo snap install eclipse --classic
+ 1289  clear
+ 1290  sudo snap install eclipse --classic
+ 1291  clear
+ 1292  sudo snap remove eclipse 
+ 1293  ls
+ 1294  ls dwarffortress 
+ 1295  rm eclipse-workspace/
+ 1296  rm -rm eclipse-workspace/
+ 1297  rm -r eclipse-workspace/
+ 1298  ls
+ 1299  npm install
+ 1300  sudo apt install npm
+ 1301  npm install
+ 1302  npm audit fix
+ 1303  npm audit 
+ 1304  sudo npm audit fix 
+ 1305  sudo snap install pycharm-professional 
+ 1306  sudo snap install pycharm-professional --classic
+ 1307  sudo snap remove pycharm-community
+ 1308  clear
+ 1309  pip -version
+ 1310  pip install psycopg
+ 1311  pip install psycopg2
+ 1312  sudo apt-get install postgresql-server-dev-9.6
+ 1313  pip install psycorg2
+ 1314  sudo snap remove atom
+ 1315  sudo apt-get remove atom
+ 1316  sudo apt-get update
+ 1317  sudo apt-get install postgresql-contrib
+ 1318  pip install psycopg2
+ 1319  python3 pip install --upgrade
+ 1320  /usr/bin/python3 -m pip install --upgrade
+ 1321  /usr/bin/python3 -m pip install --upgrade pip
+ 1322  pip install psycopg2
+ 1323  pip install django
+ 1324  firefox 
+ 1325  pycharm-professional 
+ 1326  sudo apt-get install libmysqlclient-dev 
+ 1327  sudo apt-get install python-dev python3-dev
+ 1328  mysql
+ 1329  sudo apt-get install python-pip python-dev libpq-dev postgresql postgresql-contrib
+ 1330  sudo apt-get update
+ 1331  $ sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib
+ 1332  sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib
+ 1333  sudo -u postgres psql
+ 1334  ls
+ 1335  mv 9951ea1345a49a97e623337400dba818.jpg fn57.jpg
+ 1336  clear
+ 1337  exit
+ 1338  ls
+ 1339  mv fn57.jpg fn57.png
+ 1340  sudo snap install phpstorm --classic
+ 1341  сдуфк
+ 1342  clear
+ 1343  node
+ 1344  clear
+ 1345  node --verison
+ 1346  node --version
+ 1347  npm start
+ 1348  sudo snap remove phpstorm 
+ 1349  sudo java -jar TLauncher-2.8.jar 
+ 1350  mkdir tlauncher
+ 1351  mv TLauncher-2.8.zip tlauncher/
+ 1352  ls
+ 1353  cd tlauncher/
+ 1354  ls
+ 1355  sudo psql -i
+ 1356  sudo psql 
+ 1357  sudo psql postgres
+ 1358  sudo psql -u postgres
+ 1359  sudo psql -U postgres
+ 1360  history
+ 1361  sudo -u postgres psql
+ 1362  clear
+ 1363  sudo -u postgres psql
+ 1364  go env GOROOT
+ 1365  sudo snap install go golang-go
+ 1366  sudo snap install go 
+ 1367  sudo snap install go --classic
+ 1368  go env GOROOT
+ 1369  go env GOPATH
+ 1370  ls
+ 1371  cd go
+ 1372  ls
+ 1373  go env GOPATH
+ 1374  ls
+ 1375  ды
+ 1376  ls
+ 1377  go run Hello.go 
+ 1378  npm install -p npm
+ 1379  npm --help
+ 1380  node -v
+ 1381  node
+ 1382  ls
+ 1383  cd IdeaProjects
+ 1384  ls
+ 1385  mkdir nodeapp
+ 1386  cat app.js
+ 1387  touch app.js
+ 1388  ls
+ 1389  mv app.js nodeapp/
+ 1390  ls
+ 1391  npm audit fix
+ 1392  npm audit fix --force
+ 1393  sudo apt-get update
+ 1394  sudo apt-get upgrade
+ 1395  pip3 install python-tk
+ 1396  pip install python-tk
+ 1397  sudo snap update
+ 1398  snap help
+ 1399  sudo snap help --all
+ 1400  sudo snap install atom
+ 1401  sudo snap install atom --classic
+ 1402  clear
+ 1403  atom
+ 1404  go env
+ 1405  ls
+ 1406  cd webgo
+ 1407  ls
+ 1408  clear
+ 1409  go run main.go 
+ 1410  ls
+ 1411  go run main.go
+ 1412  go build
+ 1413  ls
+ 1414  go build main.go
+ 1415  ls
+ 1416  cd main
+ 1417  main
+ 1418  ./main
+ 1419  ls -a
+ 1420  ls -al
+ 1421  clear
+ 1422  cd webgo
+ 1423  ls
+ 1424  rm main
+ 1425  ls
+ 1426  git log
+ 1427  git branch
+ 1428  git branch
+ 1429  git commit -m "create web-project on Go lang!""
+ 1430  ;
+ 1431  git commit -m "create web-project on Go lang!"
+ 1432  git add .
+ 1433  git commit -m "create web-project on Go lang!"
+ 1434  go run main.go
+ 1435  clear
+ 1436  go run main.go
+ 1437  git branch
+ 1438  git add .
+ 1439  git commit -m "add nadler function"
+ 1440  git push
+ 1441  git push --set-upstream origin web-master
+ 1442  git push
+ 1443  git push --set-upstream origin master
+ 1444  sudo git push --set-upstream origin master
+ 1445  git user 
+ 1446  git help
+ 1447  git log"
+ 1448  clear
+ 1449  git log
+ 1450  git info username "sherlok6"
+ 1451  git username "sherlok6"
+ 1452  go run main.go
+ 1453  sudo apt update
+ 1454  sudo go get github.com/go-sql-driver/mysql
+ 1455  sudo apt update
+ 1456  sudo apt install mariadb-server
+ 1457  sudo mysql_secure_installation 
+ 1458  sudo mariadb
+ 1459  sudo systemctl status mariadb
+ 1460  mysqladmin -u SHERLOK -p version
+ 1461  mysql -u SHERLOK -p
+ 1462  clear
+ 1463  alias
+ 1464  sudo
+ 1465  ls
+ 1466  irb
+ 1467  sudo apt install ruby
+ 1468  ruby -v
+ 1469  ruby --help
+ 1470  clear
+ 1471  \curl -L https://get.rvm.io | bash -s stable
+ 1472  sudo \curl -L https://get.rvm.io | bash -s stable
+ 1473  rvm list knowm
+ 1474  rvm list known
+ 1475  clear
+ 1476  go env
+ 1477  go get github.com/go-sql-driver/mysql
+ 1478  ruby -v
+ 1479  irb
+ 1480  clear
+ 1481  env
+ 1482  sudo apt install ruby-full
+ 1483  ruby -v
+ 1484  ruby --version
+ 1485  ruby -help
+ 1486  clear
+ 1487  ruby example.rb 
+ 1488  ruby hello1.rb 
+ 1489  ruby example.rb 
+ 1490  ruby hello1.rb 
+ 1491  ruby hello.rb
+ 1492  ruby variables.rb 
+ 1493  ruby operation.rb 
+ 1494  git help
+ 1495  git branch
+ 1496  git branch origin
+ 1497  git branch 
+ 1498  git branch -a
+ 1499  git branch -g
+ 1500  go branch -l
+ 1501  g
+ 1502  ruby operation
+ 1503  ruby operation.rb
+ 1504  ruby operation.rb 
+ 1505  clear
+ 1506  ruby operation.rb 
+ 1507  clear
+ 1508  ruby operation.rb 
+ 1509  ruby math_inpu
+ 1510  ruby input_data.rb 
+ 1511  ruby arrays.rb
+ 1512  ruby 5arrays.rb
+ 1513  clear
+ 1514  ruby 6methods.rb 
+ 1515  ruby 7ifelseif.rb 
+ 1516  clear
+ 1517  ruby 7ifelseif.rb 
+ 1518  ruby 5arrays.rb 
+ 1519  ruby 7ifelseif.rb 
+ 1520  сдуфк
+ 1521  clear
+ 1522  ruby 7ifelseif.rb 
+ 1523  ruby 8while\&for.rb 
+ 1524  clear
+ 1525  ruby 8while\&for.rb 
+ 1526  ruby 9file.rb 
+ 1527  ruby 9file.rb
+ 1528  clear
+ 1529  ruby 10exception.rb 
+ 1530  clear
+ 1531  ruby 11oop.rb 
+ 1532  ruby 12_1extends.rb 
+ 1533  ruby 12_2module.rb 
+ 1534  ruby --version
+ 1535  sudo apt-get update
+ 1536  ruby -v
+ 1537  rvm
+ 1538  curl -v
+ 1539  curl --version
+ 1540  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+ 1541  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+ 1542  sudo apt update && sudo apt install yarn
+ 1543  bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+ 1544  ls
+ 1545  mkdir railsapp
+ 1546  cd railsapp/
+ 1547  rails new myapp
+ 1548  sudo bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+ 1549  bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+ 1550  sudo apt update && sudo apt install yarn
+ 1551  cd ..
+ 1552  clear
+ 1553  sudo apt-get install curl
+ 1554  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+ 1555  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+ 1556  sudo apt install yarn
+ 1557  yran --version
+ 1558  yarn --version
+ 1559  bash<<(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+ 1560  bash << (curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+ 1561  bash << curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh
+ 1562  ;
+ 1563  bash <<(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+ 1564  bash < <(curl -sL https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+ 1565  bash
+ 1566  clear
+ 1567  find rails-install-ubuntu.sh
+ 1568  locate rails-install-ubuntu.sh
+ 1569  ls
+ 1570  clear
+ 1571  chmod 777 rails-install-ubuntu.sh
+ 1572  sudo ./rails-install-ubuntu.sh 
+ 1573  ./rails-install-ubuntu.sh 
+ 1574  ruby --version
+ 1575  r
+ 1576  rails 
+ 1577  rails
+ 1578  sudo apt install ruby-railties
+ 1579  clear
+ 1580  ls
+ 1581  cd railsapp/
+ 1582  clear
+ 1583  rails new myapp
+ 1584  ls
+ 1585  cd myapp
+ 1586  rails server
+ 1587  rails bundle install
+ 1588  bundle install
+ 1589  sudo apt install ruby-bundler
+ 1590  clear
+ 1591  bundle install
+ 1592  rails server
+ 1593  clear
+ 1594  sudo systemctl postgres
+ 1595  sudo systemctl status postgres
+ 1596  sudo systemctl status postgresql
+ 1597  clear
+ 1598  cd ..
+ 1599  clear
+ 1600  sudo -i postgres
+ 1601  sudo -u postgres
+ 1602  sudo -i -u postgres
+ 1603  sudo -i postgres psql
+ 1604  clear
+ 1605  passwd postgres
+ 1606  sudo passwwd postgres
+ 1607  clear
+ 1608  sudo passwd postgres
+ 1609  sudo -i postgres
+ 1610  -i postgres
+ 1611  sudo -i postgres
+ 1612  postgres
+ 1613  clear
+ 1614  sudo -u postgres
+ 1615  sudo -i -u postgres
+ 1616  clear
+ 1617  sudo -i -u postgres psql
+ 1618  psql postgres
+ 1619  clear
+ 1620  psql -U postgres -d postgres
+ 1621  psql -U sherlok6  -d postgres
+ 1622  sudo snap install vscode
+ 1623  sudo snap install --edge  vscode
+ 1624  sudo snap install --latests  vscode
+ 1625  sudo snap install --latest  vscode
+ 1626  sudo snap install vscode --classic
+ 1627  snap info vscode
+ 1628  sudo snap install --edge vscode
+ 1629  sudo snap remove atom
+ 1630  clear
+ 1631  rails new blog_app
+ 1632  git add .
+ 1633  ls
+ 1634  clear
+ 1635  git add ./blog_app/
+ 1636  git add -r ./blog_app/
+ 1637  git add -a
+ 1638  clea
+ 1639  clear
+ 1640  git add -a 
+ 1641  clear
+ 1642  git add -A .
+ 1643  git add -A ./blog_app/
+ 1644  git log
+ 1645  clear
+ 1646  git commit -m "Install Web_app"
+ 1647  git push
+ 1648  cd ..
+ 1649  ls
+ 1650  cd .ssh
+ 1651  ls
+ 1652  ls -a
+ 1653  ssh-keygen -o
+ 1654  ls
+ 1655  cat id_rsa.pub 
+ 1656  git push
+ 1657  sudo git push
+ 1658  clear
+ 1659  git push
+ 1660  clear
+ 1661  cd ..
+ 1662  ls
+ 1663  sudo rm -r blog
+ 1664  clear
+ 1665  git clone https://github.com/sherlok6/blog.git
+ 1666  cd blog
+ 1667  ls
+ 1668  rails new blog_app
+ 1669  clear
+ 1670  git add .
+ 1671  git commit -m "Intall Rails App"
+ 1672  git push
+ 1673  git config --global user.name "sherlok6"
+ 1674  git config --global user.email "skibakol@yandex.ru"
+ 1675  git config -l
+ 1676  git config --global credential.helper cache
+ 1677  gut pull
+ 1678  git pull
+ 1679  git push
+ 1680  ls
+ 1681  git add .
+ 1682  git commit -m "Install Rails App"
+ 1683  git add -A .
+ 1684  git add -A ./
+ 1685  git add -A ./blog_app/
+ 1686  git add
+ 1687  git add .
+ 1688  git add blog_app/
+ 1689  ls
+ 1690  cd blog_app
+ 1691  ls
+ 1692  ls -a
+ 1693  git add .
+ 1694  git commit -m "Install Rails App"
+ 1695  git log
+ 1696  git push
+ 1697  ls -a
+ 1698  cd ..
+ 1699  ls
+ 1700  git commit -m "п" 
+ 1701  git add .
+ 1702  cd blog_app/
+ 1703  ls
+ 1704  ls -a
+ 1705  rm -r  .git 
+ 1706  sudo rm -r .git
+ 1707  rm .gitignore 
+ 1708  ls
+ 1709  ls -a
+ 1710  cd ..
+ 1711  ls
+ 1712  git add .
+ 1713  ls
+ 1714  git log
+ 1715  git add .
+ 1716  ls
+ 1717  git commit -m "Install Rails App"
+ 1718  ls
+ 1719  cd blog_app/
+ 1720  l
+ 1721  cd ..
+ 1722  ls
+ 1723  git push
+ 1724  git add -A blog_app/
+ 1725  git commit -m "Install Rails App"
+ 1726  cd ..
+ 1727  ls
+ 1728  cd blog
+ 1729  rails new blog_app
+ 1730  clea
+ 1731  clear
+ 1732  git init
+ 1733  ls -a
+ 1734  git add .
+ 1735  git add blog_app/
+ 1736  git add -a blog_app/
+ 1737  git add -A blog_app/
+ 1738  git add .
+ 1739  clear
+ 1740  git log
+ 1741  git add .
+ 1742  cd ..
+ 1743  ls
+ 1744  cd ~
+ 1745  sl
+ 1746  clear
+ 1747  cd vsprojects/
+ 1748  ls
+ 1749  rails new blog
+ 1750  cd blog
+ 1751  clear
+ 1752  git init
+ 1753  git add .
+ 1754  ls
+ 1755  git log
+ 1756  ls -a
+ 1757  git commit -m "Install Rails App"
+ 1758  cler
+ 1759  clear
+ 1760  git branch -M master
+ 1761  git branch
+ 1762  git remote add origin https://github.com/sherlok6/blog.git
+ 1763  git push -u origin master
+ 1764  clear
+ 1765  rails server
+ 1766  gem install bundler:2.1.4
+ 1767  sudo gem install bundler:2.1.4
+ 1768  clear
+ 1769  rails server
+ 1770  clear
+ 1771  cd ..
+ 1772  ls
+ 1773  cd WebGoApp/
+ 1774  ls
+ 1775  ls -a
+ 1776  rm .idea/
+ 1777  rm -r .idea/
+ 1778  rm WebGoApp.iml 
+ 1779  clear
+ 1780  ls
+ 1781  git init
+ 1782  clear
+ 1783  git add README.md
+ 1784  ls
+ 1785  git commit -m "Install Web Site Go "
+ 1786  git add .
+ 1787  git commit -m "Install Web Site Go "
+ 1788  clear
+ 1789  git branch -M master
+ 1790  git remote add origin https://github.com/sherlok6/site.git
+ 1791  git push -u origin master
+ 1792  echo "# site" >> README.md
+ 1793  git add README.md
+ 1794  git commit -m "Add README.md"
+ 1795  git push -u origin master
+ 1796  clear
+ 1797  git push -u origin master
+ 1798  git branch
+ 1799  cd ..
+ 1800  clear
+ 1801  go env
+ 1802  rails -v
+ 1803  rails g About
+ 1804  clear
+ 1805  rails stop
+ 1806  clear
+ 1807  bundle install
+ 1808  clear
+ 1809  rails s
+ 1810  clear
+ 1811  rails g controller Posts
+ 1812  rails s
+ 1813  clear
+ 1814  rails g controller About
+ 1815  clear
+ 1816  rails s
+ 1817  сдуфк
+ 1818  clear
+ 1819  rails s
+ 1820  clear
+ 1821  rails s
+ 1822  сдуфк
+ 1823  clear
+ 1824  rails g controller Pages
+ 1825  clear
+ 1826  rails s
+ 1827  clear
+ 1828  rails s
+ 1829  clear
+ 1830  rails s
+ 1831  clear
+ 1832  rake
+ 1833  clear
+ 1834  rake routes
+ 1835  rails s
+ 1836  clear
+ 1837  rails s
+ 1838  cleer
+ 1839  clear
+ 1840  rails g model Post title:string content:text post_date:date
+ 1841  rake db:migrate
+ 1842  rake routes
+ 1843  clear
+ 1844  rails s
+ 1845  clear
+ 1846  rails s
+ 1847  clear
+ 1848  rails s
+ 1849  clear
+ 1850  rails s
+ 1851  clear
+ 1852  rails s
+ 1853  clear
+ 1854  rails s
+ 1855  clear
+ 1856  rails s
+ 1857  cler
+ 1858  clear
+ 1859  cler
+ 1860  clear
+ 1861  rails s
+ 1862  clear
+ 1863  rails s
+ 1864  clear
+ 1865  rails s
+ 1866  clear
+ 1867  rails s
+ 1868  clear
+ 1869  rails g model Comment user_name:string body:text post:references
+ 1870  rails db:migrte
+ 1871  rails db:migrate
+ 1872  rake routes.rb
+ 1873  rake routes
+ 1874  rails g controller Comment
+ 1875  rails s
+ 1876  clear
+ 1877  rails destroy controller Comment
+ 1878  clear
+ 1879  rails g controller Comments
+ 1880  rails s
+ 1881  clear
+ 1882  rails destroy controller About
+ 1883  clear
+ 1884  rails s
+ 1885  git branch
+ 1886  git commit -m "Add Post's and Comment's"
+ 1887  git add .
+ 1888  git commit -m "Add Post's and Comment's"
+ 1889  cler
+ 1890  clear
+ 1891  git remote -v
+ 1892  git push
+ 1893  git push --set-upstream origin v0_1
+ 1894  git log
+ 1895  clear
+ 1896  rails g controller
+ 1897  clear
+ 1898  rails g controller Posts
+ 1899  clear
+ 1900  git branch
+ 1901  git commit -m "Create Post's Controller"
+ 1902  git add .
+ 1903  git commit -m "Create Post's Controller"
+ 1904  clear
+ 1905  rails s
+ 1906  clear
+ 1907  git log
+ 1908  rails g model Post title: string, body: text, time_post: datetime
+ 1909  clear
+ 1910  rails db:migrate
+ 1911  rails d model Post
+ 1912  rails g model Post title :string, body :text, time_post :datetime
+ 1913  rails db:migrate
+ 1914  rails d model Post
+ 1915  rails g model Post title:string, body:text, time_post:datetime
+ 1916  rails db:migrate
+ 1917  rails generation migration CreatePosts
+ 1918  rails d model Post
+ 1919  rails g model Post title:string body:text time_post:datetime
+ 1920  rails generation migration CreatePosts
+ 1921  rails db:migrate
+ 1922  rails d model Post
+ 1923  clear
+ 1924  rails g model Post title:string body:text dt_post:datetime
+ 1925  rake db:migrate
+ 1926  rails s
+ 1927  clear
+ 1928  rails db:migrate
+ 1929  clear
+ 1930  rm -r blog
+ 1931  cd ..
+ 1932  ls
+ 1933  rm -r blog/
+ 1934  sudo rm -r blog/
+ 1935  clear
+ 1936  ls
+ 1937  git clone https://github.com/sherlok6/blog.git
+ 1938  rails g c Post
+ 1939  clear
+ 1940  rails g controller Post
+ 1941  ls
+ 1942  cd blog
+ 1943  rails g controller Post
+ 1944  gem install bundler:2.1.4
+ 1945  rails g controller Post
+ 1946  clear
+ 1947  rails s
+ 1948  clear
+ 1949  rails d controller Post
+ 1950  clear
+ 1951  rails g controller Posts
+ 1952  rails s
+ 1953  clear
+ 1954  git add .
+ 1955  git commit -m "Create Post's Controller"
+ 1956  clear
+ 1957  rails g model Post title:string body:text dt_post:datetime
+ 1958  rake db:migrate
+ 1959  clear
+ 1960  rails s 
+ 1961  clear
+ 1962  rails s 
+ 1963  clear
+ 1964  rails s 
+ 1965  celar
+ 1966  clear
+ 1967  git log
+ 1968  git add ./models
+ 1969  ls
+ 1970  git add models
+ 1971  git add models/
+ 1972  git add /models
+ 1973  clear
+ 1974  rails s
+ 1975  clear
+ 1976  rake routes
+ 1977  rails s
+ 1978  celar
+ 1979  clear
+ 1980  git lof
+ 1981  git log
+ 1982  rails s
+ 1983  сдуфк
+ 1984  clear
+ 1985  rails s
+ 1986  clear
+ 1987  git commit -m "Create Model Post and CRUD interface"
+ 1988  git add .
+ 1989  git commit -m "Create Model Post and CRUD interface"
+ 1990  clear
+ 1991  git branch
+ 1992  git branch --help
+ 1993  git branch
+ 1994  git remote --set-upstream origin v0_2
+ 1995  git remote add --set-upstream origin v0_2
+ 1996  git log
+ 1997  git push
+ 1998  git push --set-upstream origin v0_2
+ 1999  bundle install
+ 2000  clear
+ 2001  spring stop
+ 2002  rails g devise:install
+ 2003  git add .
+ 2004  git commit -m "Add Gem Devise for Authorize User"
+ 2005  git push
+ 2006  clear
+ 2007  rails g devise User
+ 2008  rails g devise:views
+ 2009  rails g controller page home
+ 2010  rails db:migrate
+ 2011  rails s
+ 2012  сдуфк
+ 2013  clear
+ 2014  rake routes
+ 2015  clear
+ 2016  rails s
+ 2017  clear
+ 2018  rake routes
+ 2019  touch hs.txt
+ 2020  cat history >> hs.txt
+ 2021  history >> hs.txt

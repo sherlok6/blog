@@ -4,12 +4,39 @@
     <title>Blog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <%= stylesheet_link_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+   <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+        <h1 class="fs-4 font-weight-bold">Мой блог</h1>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <span class="me-3 py-2 text-dark text-decoration-none" >
+          <%= link_to "Главная страница", home_path %>
+        </span>
+        <% if current_user %>
+          <span class="me-3 py-2 text-dark text-decoration-none" >
+            <%= link_to current_user.email, page_home_path %>
+          </span>
+          <span class="me-3 py-2 text-dark text-decoration-none" >
+            <%= link_to "Новый пост", new_post_path %>
+          </span>
+        <% else %>
+          <span class="me-3 py-2 text-dark text-decoration-none" >
+              <%= link_to "Войти в профиль", new_user_session_path %>
+            </span>
+            <span class="me-3 py-2 text-dark text-decoration-none" >
+              <%= link_to "Зарегистрироваться", new_user_registration_path %>
+            </span>
+        <% end %>
+      </nav>
+    </div>
+    <%= render "layouts/alerts" %>
     <%= yield %>
   </body>
 </html>

@@ -1,0 +1,43 @@
+<h2><%= @post.title %></h2>
+<p><%= @post.body %></p>
+<br>
+<strong><%= @post.dt_post %></strong>
+<br>
+<% if current_user == @post.user %>
+  <strong><%= link_to "Редактировать пост", edit_post_path(@post) %></strong>
+  <strong><%= link_to "Удалить пост", post_path(@post), method: :delete,
+    data: { confirm: 'Вы хотите удалить пост?' } %></strong>
+<% end %>
+<br>
+<% if current_user %>
+  <% if @comment.errors.any? %>
+    <% @comment.errors.full_messages.each do |msg| %>
+        <%= msg %>
+        <br>
+    <% end %>
+  <% end %>
+    <h2>Добавить комментарии</h2>
+  <%= form_for([@post, @post.comments.build]) do |f| %>
+    <p>
+        Комментарий <br>
+        <%= f.text_area(:body, {:class => 'form-control'}) %>
+    </p>
+    <p>
+        <%= f.submit("Добавить комментарий") %>
+    </p>
+  <% end %>
+<% else %>
+  <%= link_to "Войдите в профиль", new_user_session_path %> <span> или </span> <%= link_to "Зарегистрироваться", new_user_registration_path %>
+<% end %>
+
+<% if (@post.comments).length()-1 == 0 %>
+  <h3>К этому посту нет комментарией</h3>
+<% else %>
+<h2>Все комментарии к посту</h2>
+  <% @post.comments.each do |comment| %>
+    <div>
+      <p><%= comment.username %> :: <%= comment.body%></p>
+      <strong><%= comment.times %></strong>
+    </div>
+  <% end %>
+<% end %>  
